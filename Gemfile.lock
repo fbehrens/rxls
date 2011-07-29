@@ -1,0 +1,16 @@
+PATH
+  remote: .
+  specs:
+    rxls (0.0.2)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    minitest (2.3.1)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  minitest (~> 2.3.0)
+  rxls!

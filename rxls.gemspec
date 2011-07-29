@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.description = %q{like csv}
 
   s.rubyforge_project = "rxls"
+  s.add_development_dependency 'minitest' ,'~> 2.3.0'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
